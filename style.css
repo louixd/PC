@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins';
     background-color: #A9A9A9;
     background-size: cover;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqz7e0P9HBoVR5e86U3k8gBTOQcda1aSkPanZxCqcyA&s");
+    background-image: url("https://wallpapercave.com/wp/wp235688.jpg");
     
 }
 
@@ -115,4 +115,26 @@ header{
         margin: 25px 0;
         font-size: 1.2em;
     }
+}
+
+.navbar .logo:hover{
+      text-shadow:
+    0 0 10px white,
+    0 0 20px white,
+    0 0 30px blue;
+}
+
+.model-container {
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* ⬆️ remonte le modèle */
+    padding-top: 0px;       /* ajuste la hauteur */
+}
+
+model-viewer {
+    width: 100%;
+    height: 100%;
+    margin-top: -100px; /* ⬆️ remonte le modèle */
 }
